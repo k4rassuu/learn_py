@@ -1,0 +1,7 @@
+from sys import argv
+from module import currency_rates
+
+if __name__ == '__main__':
+    program, NAME = argv
+    for i in (NAME):
+        print(currency_rates(i))
